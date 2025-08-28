@@ -93,7 +93,7 @@ header {
 #services {
   padding: 80px 10%;
   text-align: center;
-  background:#ffa5d0;
+  background:#f7c2dc;
   }
 
 .section-title {
@@ -137,7 +137,7 @@ header {
 #register {
   padding: 80px 10%;
   text-align: center;
-  background: #e9b6cf;
+  background: #fb58a7;
 }
 .register-form {
   max-width: 400px;
@@ -156,7 +156,7 @@ header {
 
 .register-form button {
   padding: 12px;
-  background: #ff007f;
+  background: #e765a6;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -165,5 +165,5 @@ header {
 }
 
 .register-form button:hover {
-  background: #e60073;
+  background: #f5278e;
 }
