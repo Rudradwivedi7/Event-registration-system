@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> RB-EVENT.COM</title>
+  <link rel="stylesheet" href="cssproject.css">
+  <script src="jsproject.js" defer></script>
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="logo">RB-EVENT.COM</div>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#register">Register</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <h2>LET'S PLAN EVENTS</h2>
+  <h1>LET'S ORGANIZE EVENTS WITH US <span>💖</span></h1>
+  <a href="#register" class="btn">REGISTER NOW</a>
+</section>
+
+<section id="services">
+  <h2 class="section-title">SERVICES</h2>
+  <p class="tagline">WE ORGANIZE YOU CELEBRATE</p>
+  <p class="quote">"Some people look for a beautiful place. Others make a place beautiful."</p>
+  
+  <div class="services-gallery">
+    <div class="card">CORPORATE EVENT</div>
+    <div class="card">MARRIAGE RECEPTION</div>
+    <div class="card">FASHION EVENT</div>
+    <div class="card">BIRTHDAY DECOR</div>
+    <div class="card">WEDDING NIGHT</div>
+    <div class="card">ENGAGEMENT</div>
+    <div class="card">CULTURAL SHOW</div>
+    <div class="card">CONFERENCE</div>
+  </div>
+</section>
+
+<section id="register">
+  <h2 class="section-title">Register for an Event</h2>
+  <form action="register.php" method="POST" class="register-form">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <br>
+    <input type="email" name="email" placeholder="Email" required>
+    <br>
+    <input type="text" name="phone" placeholder="Phone Number" required>
+    <br>
+    <select name="event_id" required>
+      <option >Select Event</option>
+      <option value="Corporate Event" >Corporate Event</option>
+      <option value="Marriage Reception" >Marriage Reception</option>
+      <option value="Fashion Event">Fashion Event</option>
+      <option value="Birthday Decor">Birthday Decor</option>
+    </select>
+    <br>
+    <button type="submit">Register</button>
+  </form>
+</section>
+
+</body>
+</html>
